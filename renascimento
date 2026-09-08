@@ -1,0 +1,14 @@
+public class ProjetoRenascimento {
+    public static void main(String[] args){
+    boolean coragem = true;
+    int saudefisica = 40;
+
+    System.out.println("\nAvaliação científica");
+    if (coragem && saudefisica > 30){
+        System.out.println("voce esta apto para participar do projeto renascimento");
+    } else {
+        System.out.println("infelizmente, voce nao esta apto para participar do projeto renascimento");
+    }
+
+    }
+}
